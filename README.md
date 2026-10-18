@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Reservation Database (OpenTable-Style)
+# Restaurant Reservation Database (OpenTable-Style)
 
 A relational database design for a restaurant reservation platform modeled on OpenTable. The project covers the full database lifecycle: conceptual design (ER model), logical schema, a MySQL implementation with mock data, and a set of analytical queries that answer realistic questions a diner, restaurant, or platform might ask.
 
@@ -93,7 +93,7 @@ The script populates the database with mock data, including:
    ```bash
    mysql -u root -p < sql/OpenTable.sql
    ```
-   > ⚠️ The script begins with `DROP DATABASE IF EXISTS OpenTable;`, so it will replace any existing database with that name.
+   > The script begins with `DROP DATABASE IF EXISTS OpenTable;`, so it will replace any existing database with that name.
 
 3. **Run the queries**
    ```bash
